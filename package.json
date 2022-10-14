@@ -1,0 +1,19 @@
+{
+  "name": "tween-animation-in-three-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "proxy": "http://localhost:3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.17.1",
+    "gsap": "^3.7.0",
+    "three": "^0.127.0"
+  }
+}
