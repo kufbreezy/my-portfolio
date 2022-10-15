@@ -29,7 +29,9 @@ scene.add(camera);
 
 //explore
 explore.click(() => {
-  document.getElementById('name').innerHTML = ""
+  document.getElementById('name').remove()
+  document.getElementById('greet').remove()
+  document.getElementById('interest').remove()
   document.getElementById('button').remove()
   if(!gsap.isTweening(camera.position)){
     gsap.to(camera.position,{
@@ -38,7 +40,7 @@ explore.click(() => {
       ease: "power3.inOut",
     })
   }
-  setTimeout(replaceLocation, 850)
+  setTimeout(replaceLocation, 800)
 });
 
 //default renderer
