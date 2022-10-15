@@ -9,8 +9,8 @@ app.listen(4000, () => console.log("Visit http://127.0.0.1:4000"));
 
 app.set('view engine', 'ejs');
 
-app.get('/me', (req, res) => {
-    app.render('email', function (err, html) {
+app.get('/profile', (req, res) => {
+    app.render('portfolio', function (err, html) {
         if (err) console.log(err);
         res.send(html)
     });

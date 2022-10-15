@@ -18,7 +18,7 @@ const explore = $(".explore");
 var explorer = false;
 
 function replaceLocation(){
-  location.replace('http://127.0.0.1:3000/me');
+  window.location.href = '/me';
 }
 
 //camera

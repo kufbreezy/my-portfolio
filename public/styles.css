@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap");
-
 * {
   margin: 0%;
   padding: 0%;
@@ -59,3 +58,5 @@ body {
   text-transform: uppercase;
   color: whitesmoke;
 }
+
+* { color:#fff; text-decoration: none;}
