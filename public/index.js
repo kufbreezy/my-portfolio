@@ -18,7 +18,7 @@ const explore = $(".explore");
 var explorer = false;
 
 function replaceLocation(){
-  window.location.href = '/me';
+  window.location.href = '/profile';
 }
 
 //camera
